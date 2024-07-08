@@ -357,16 +357,32 @@ Computacionales, Ingeniería Biomédica e Ingeniería en Tecnologías de la Info
 <td>La función de probabilidad P(X) describe la distribución de probabilidad de una variable aleatoria X.</td>
 </tr> <tr>
 <td>4.2 Distribución binomial</td>
-<td>La distribución binomial es una función de probabilidad que describe la probabilidad de obtener x éxitos en n intentos independientes, donde cada intento tiene solo dos posibles resultados (éxito o fracaso).</td>
+<td>La distribución binomial es una función de probabilidad que describe la probabilidad de obtener x éxitos en n intentos independientes, donde cada intento tiene solo dos posibles resultados (éxito o fracaso).
+<li><b>Formula:</b><!DOCTYPE html>
+  <html>
+  <head>
+    <script type="text/javascript" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+  </head>
+    <p>$$f(k; n, p) = \binom{n}{k} p^k (1 - p)^{n - k}$$</p> 
+  </html></li>
+</td>
 </tr> <tr>
- <td>4.3 Distribución hipergeométrica</td>
-<td>La distribución hipergeométrica es una función de probabilidad que describe la probabilidad de obtener x éxitos en n intentos, sin reemplazo, de una población finita que contiene N elementos, k de los cuales son éxitos.</td>
+<td>4.3 Distribución hipergeométrica</td>
+<td>La distribución hipergeométrica es una función de probabilidad que describe la probabilidad de obtener x éxitos en n intentos, sin reemplazo, de una población finita que contiene N elementos, k de los cuales son éxitos.
+<li><b>Formula:</b> <p>$$f(k; N, n, K) = \frac{\binom{K}{k} \binom{N-K}{n-k}}{\binom{N}{n}}$$</p></li>
+</td>
 </tr> <tr>
 <td>4.4 Distribución de Poisson</td>
-<td>La distribución de Poisson es una función de probabilidad que describe la probabilidad de que ocurran x eventos independientes en un intervalo de tiempo o espacio, cuando el promedio de eventos que ocurren en ese intervalo es conocido.</td>
+<td>La distribución de Poisson es una función de probabilidad que describe la probabilidad de que ocurran x eventos independientes en un intervalo de tiempo o espacio, cuando el promedio de eventos que ocurren en ese intervalo es conocido.
+<li><b>Formula:</b> <p>$$f(k; \lambda) = \frac{e^{-\lambda} \lambda^k}{k!}$$</p></li>
+</td>
 </tr> <tr>
 <td>4.5 Distribución normal</td>
-<td>La distribución normal, también conocida como distribución gaussiana, es una de las distribuciones de probabilidad más importantes y ampliamente utilizadas en estadística y matemáticas.</td>
+<td>La distribución normal, también conocida como distribución gaussiana, es una de las distribuciones de probabilidad más importantes y ampliamente utilizadas en estadística y matemáticas.
+  <li><b>Formula:</b> <p>\( f(x; \mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} \)</p></li>
+</td>
 </tr> <tr>
 <td>4.6 Distribución t-Student</td>
 <td>La distribución t-Student, también conocida como distribución de Student, es una familia de distribuciones de probabilidad que se utiliza cuando se trabaja con muestras pequeñas y se desconoce la desviación
